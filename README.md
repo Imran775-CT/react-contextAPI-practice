@@ -70,7 +70,7 @@ npm start
 
 **Developer Imran**  
 📧 imran@example.com  
-🌐 [Your portfolio or LinkedIn link here]
+🌐 [ My portfolio➤ https://imran775-ct.github.io/developer-imran-portfolio/]
 
 ---
 
