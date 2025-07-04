@@ -1,12 +1,79 @@
-# React + Vite
+# React Context Family 👨‍👩‍👧‍👦
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React project to demonstrate how **Context API** and **Prop Drilling** can be used to manage and share state across deeply nested components. 🧠💡
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔍 Features
 
-## Expanding the ESLint configuration
+- ✅ React Context API for global state management
+- ✅ Prop Drilling alongside Context for comparison
+- ✅ Dynamic money management (Add / Spend)
+- ✅ Nested family component structure
+- ✅ Conditional rendering with user interaction
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🏗️ Components Structure
+
+```
+GrandPa
+ ├── Dad
+ │    └── Cousin
+ ├── Uncle
+ │    └── Cousin
+ └── Aunty
+      ├── Cousin
+      └── Sister
+```
+
+---
+
+## 💰 Shared State: Money
+
+The `MoneyContext` allows all child components to:
+
+- View current money 💸
+- Add money (from Aunty ➕)
+- Spend money (from Sister ➖)
+- Reflect changes across the app instantly ✅
+
+---
+
+## 🚀 How to Run Locally
+
+```bash
+git clone https://github.com/your-username/react-context-family.git
+cd react-context-family
+npm install
+npm start
+```
+
+---
+
+## 🌐 Live Demo
+
+🔗 [Add your Netlify or Vercel deployment link here]
+
+---
+
+## 🛠️ Technologies Used
+
+- React JS (Vite or CRA)
+- Context API
+- useState & useContext
+- CSS or Tailwind CSS
+
+---
+
+## 🙋‍♂️ Author
+
+**Developer Imran**  
+📧 imran@example.com  
+🌐 [Your portfolio or LinkedIn link here]
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** – use freely!
